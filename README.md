@@ -160,7 +160,7 @@ Analytics: Building data-driven dashboards for business insights
 
 Certifications
 
-Microsoft Azure Fundamentals (AZ-900) - [Date]
+Microsoft Azure Fundamentals (AZ-900) - Dec 2025
 Microsoft Azure Administrator (AZ-104) - In Progress
 
 
