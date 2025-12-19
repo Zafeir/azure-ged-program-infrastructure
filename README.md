@@ -146,7 +146,7 @@ cd infrastructure/bicep
 az deployment group create --resource-group rg-ged-program --template-file main.bicep
 Detailed setup instructions available in docs/setup-guide.md
 
-📚 Learning Objectives
+Learning Objectives
 This project demonstrates proficiency in:
 
 Cloud Architecture: Designing scalable, secure multi-tier applications
