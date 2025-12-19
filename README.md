@@ -1,9 +1,9 @@
 Azure GED/HSE Program Cloud Infrastructure
-🎯 Project Overview
+Project Overview
 This project demonstrates enterprise-level cloud infrastructure design for an educational enrollment program, featuring multi-channel marketing integration, role-based access control, automated workflows, and compliance with FERPA requirements.
 Built with: Microsoft Azure | Bicep/ARM Templates | Power BI | Azure Functions | Logic Apps
 
-📊 Business Context
+Business Context
 In my previous role managing enrollment and marketing for a GED/HSE program, I oversaw a complete digital infrastructure handling:
 
 Multi-channel marketing campaigns across Meta (Facebook/Instagram), Google Ads, bus advertisements, and print materials
@@ -14,7 +14,7 @@ Automated workflows for enrollment, document verification, and employment placem
 
 This project recreates that infrastructure using modern Azure services, demonstrating cloud architecture, security, compliance, and business process automation.
 
-🏗️ Architecture
+Architecture
 High-Level Components
 Marketing & Lead Generation Layer
 
@@ -53,11 +53,11 @@ Employment opportunity matching
 Email notifications and task management
 
 
-👥 Role-Based Access Control Implementation
+Role-Based Access Control Implementation
 Custom Azure Roles Defined
 RoleAccess LevelPermissionsProgram DirectorFull AccessAll student data, documents, educational records, employment tracking, system administrationOffice ManagerFull Personal DataAll personal documents, student contact info, limited educational data accessProgram ManagerEducational FocusEducational history, test scores, employment documentation, prerequisite verificationCase ManagerOperationalStudent login credentials, basic information, application status - no sensitive documentsMarketing ManagerAnalytics OnlyLead data, campaign metrics, qualification rates - no individual student PIIIntake CoordinatorFront-EndInitial intake forms, basic student info, pre-enrollment data only
 
-🔐 Security & Compliance
+Security & Compliance
 
 Encryption: All data encrypted at rest (AES-256) and in transit (TLS 1.2+)
 Authentication: Multi-Factor Authentication enforced for all users
@@ -67,7 +67,7 @@ Compliance: FERPA-aligned data handling and retention policies
 Network Security: Network Security Groups (NSGs) and Azure Firewall rules
 
 
-📈 Business Impact
+Business Impact
 Metrics & Results
 
 Cost Optimization: [To be calculated] % reduction through right-sizing and auto-scaling
@@ -77,7 +77,7 @@ Scalability: Infrastructure handles 10x traffic spikes during campaign launches
 Compliance: Automated audit logging ensures FERPA compliance documentation
 
 
-🛠️ Technical Implementation
+Technical Implementation
 Azure Services Used
 
 Compute: Azure App Service, Azure Functions, Virtual Machines
@@ -98,7 +98,7 @@ Disaster recovery
 Environment consistency (dev/staging/prod)
 
 
-📂 Repository Structure
+Repository Structure
 ├── README.md
 ├── architecture/
 │   ├── diagrams/           # Architecture and workflow diagrams
@@ -125,7 +125,7 @@ Environment consistency (dev/staging/prod)
     ├── setup-guide.md     # Step-by-step setup instructions
     └── lessons-learned.md # Project insights and learnings
 
-🚀 Getting Started
+Getting Started
 Prerequisites
 
 Azure subscription (free tier available)
@@ -158,24 +158,24 @@ Cost Management: Optimizing cloud spending while maintaining performance
 Analytics: Building data-driven dashboards for business insights
 
 
-🎓 Certifications
+Certifications
 
 Microsoft Azure Fundamentals (AZ-900) - [Date]
 Microsoft Azure Administrator (AZ-104) - In Progress
 
 
-📧 Contact
+Contact
 Moises Arias
 
 LinkedIn: https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile
 Email: Moisesoarias1@gmail.com
 
 
-📝 License
+License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-🙏 Acknowledgments
+Acknowledgments
 This project was inspired by real-world experience managing digital infrastructure for educational programs, with a focus on demonstrating how cloud technologies solve actual business challenges while maintaining security and compliance.
 
-⭐ If you find this project helpful, please consider giving it a star!
+If you find this project helpful, please consider giving it a star!
 Last Updated: December 2025
