@@ -1,6 +1,32 @@
+## December 20, 2025 - Day 2: Foundation
+
+**Completed:**
+- ✅ Created resource group: rg-ged-program-dev
+- ✅ Deployed storage account: stgedprogramdev01
+- ✅ Enabled static website hosting
+- ✅ Created and uploaded index.html landing page
+- ✅ Site live at: https://stgedprogramdev01.z13.web.core.windows.net/
+- ✅ Configured Application Insights: appi-ged-program-dev
+- ✅ Added tracking code to website
+
+**Learnings:**
+- Storage accounts must be globally unique
+- Static website hosting is cost-effective for landing pages (~$0.50/month)
+- Application Insights tracks visitor behavior and campaign performance
+- Azure Storage = PaaS hosting, simpler than traditional web hosts
+
+**Time Spent:** 1 hour 27 minutes
+
+**Storage Account Deployed**
+- Name: stgedprogramdev01
+- Static website enabled
+- URL: https://stgedprogramdev01.z13.web.core.windows.net/
+- Uploaded index.html successfully
+- Site is live ✅
+
 # Daily Build Log
 
-## December 19, 2024 - Day 1: Foundation
+## December 19, 2025 - Day 1: Foundation
 
 **Time Spent:** ~1 hour
 
